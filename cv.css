@@ -66,3 +66,41 @@ p {
 }
     
 /* } */
+
+
+    
+/* *********************   contact details page  ******************* */
+
+
+.container {
+    position: relative;
+    /* border: solid 5px; */
+    display:inline-block;
+    width: 49.5%;
+    height: 70%;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: 'Times New Roman', serif;
+}
+
+input {
+    background-color: whitesmoke;
+}
+textarea {
+    background-color: whitesmoke;
+}
+
+A:hover {
+    background-color: white;
+}
+
+
