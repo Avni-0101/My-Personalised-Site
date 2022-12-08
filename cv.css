@@ -1,43 +1,50 @@
 
 
-
-/* @media only screen and (min-width: 1400px) { */
-    
 body {
     background-color: mintcream;
     margin: 0;
+    /* display: flexbox; */
     width: 100%;
+    
 }
 
 .bg-img {
     align-self: center;
-    height: 40rem;
+    height: 42vw;
     width: 100%;
 }
 
 .avni {
-    margin: 2rem 0 0 20rem;
+    margin: 2rem 0 0 22%;
     font-family: ravie, fantasy;
-    font-size: 3em;
+    font-size: 3.2vw;
 }
 
 a {
     color: black;
     text-decoration: none;
-    margin-left: 3rem;
+    margin-left: 2.2vw;
 }
 
 h1 {
     margin: 0;
-    margin-left: 22rem;
+    font-size: 2.1vw;
     font-family: ravie, fantasy;
 }
 
 .icon-pic {
     position: absolute;
-    margin: 2rem;
-    size: 20%;
+    margin: 0 2vw;
+    width: 19%;
+    height: auto;
 
+}
+.links {
+    left: 24%;
+    position: relative;
+    display: inline;
+    width: 10%;
+    height: auto;
 }
 .tbar {
     position: fixed;
@@ -53,7 +60,7 @@ h1 {
 p {
     margin: 0;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 3.3vw;
     font-family: Bradley Hand ITC, cursive;
 }
 
@@ -63,10 +70,6 @@ p {
     margin: 0;
     font-size: large;
 }
-    
-/* } */
-
-
     
 /* *********************   contact details page  ******************* */
 
@@ -89,17 +92,27 @@ p {
     top: 10%;
     left: 10%;
     font-family: 'Times New Roman', serif;
+    font-size: 1.2vw;
 }
 
 input {
     background-color: whitesmoke;
+    size: 1.2vw;
 }
 textarea {
     background-color: whitesmoke;
+    /* size: 1.2vw; */
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
 }
 
 A:hover {
     background-color: white;
 }
-
-
+form {
+    font-size: 1.2vw;
+}
