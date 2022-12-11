@@ -105,11 +105,22 @@ textarea {
 A:hover {
     background-color: white;
 }
-form, input[type=submit], input[type=reset] {
+form {
     font-size: 1.2vw;
+}
+
+input[type=submit], input[type=reset] {
+    font-size: 1.2vw;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: black;
+
 }
 
 input[type=text], input[type=email], textarea {
     font-size: 1.2vw;
     resize: both;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: black;
 }
