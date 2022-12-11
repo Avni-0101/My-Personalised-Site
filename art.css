@@ -1,0 +1,196 @@
+
+body {
+    background-color: mintcream;
+    margin: 0;
+    /* display: flexbox; */
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.bg-img {
+    margin: 0;
+    align-self: center;
+    height: 42vw;
+    width: 100%;
+}
+p{margin: 0;}
+
+.main {
+    position: absolute;
+    top: 23vw;
+    left: 25%;
+    margin: 0;
+    text-align: center;
+    font-size: 3.3vw;
+    font-family: Bradley Hand ITC, cursive;
+}
+
+.avni {
+    margin: 2rem 0 0 20%;
+    font-family: ravie, fantasy;
+    font-size: 3.2vw;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 2.2vw;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.1vw;
+    font-family: ravie, fantasy;
+}
+
+h2 {
+    text-decoration: wavy underline;
+    text-underline-offset: 1vw;
+    margin: 1vw;
+    font-family: ravie, fantasy;
+    color: #A460ED;
+    text-align: center;
+    font-style: italic;
+    font-size: 2vw;
+}
+
+.icon-pic {
+    position: absolute;
+    margin: 0 2vw;
+    width: 19%;
+    height: auto;
+
+}
+.links {
+    left: 24%;
+    position: relative;
+    display: inline;
+    width: 10%;
+    height: auto;
+}
+.tbar {
+    position: absolute;
+    background-color: mintcream;
+    height: 4rem;
+    width: 100%;
+}
+
+.white {
+    height: 6rem;
+}
+
+.footer {
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-size: large;
+}
+    
+
+A:hover {
+    background-color: white;
+}
+
+td{display: inline-block;}
+
+hr {
+    outline-style: dotted;
+    align-self: center;
+    width: 80vw;
+    color: #D09CFA;
+    border-style: none;
+    
+}
+
+/* ////////////////////       CREATIONS       ///////////////////////// */
+
+details {
+    color: #A460ED;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+summary{    
+    color: #CB1C8D;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.mlb {
+    margin: 0;
+    text-decoration: underline;
+    color: #CB1C8D;
+}
+
+
+A:hover {
+    background-color: white;
+}
+
+.img {
+    margin: 1vw;
+    margin-left: 2vw;
+    display: inline;
+    height: 15vw;
+    width: auto;
+    /* border-radius: 11px; */
+    border-style: double;
+    border-width: 8px;
+}
+
+.hideas { 
+    height: 20vw;
+    border-style: solid;
+    border-width: 2px;
+}
+
+iframe {
+    margin: 1vw;
+    margin-left: 2vw;
+    width: 20vw;
+    height: 20vw;
+    border-color: black;
+    border-style: solid;
+}
+/* 
+
+.overlay {
+    position: absolute;
+    top: 1vw;
+    bottom: 1vw;
+    left: 2vw;
+    right: 1vw;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: goldenrod;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container {
+    
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 20%;
+  } */
